@@ -138,3 +138,47 @@ span {
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
+@media(max-width:375px){
+  .container{
+    margin: 22% 6%;
+    overflow: hidden;
+  }
+  .container,.article-img,.article-text{
+    flex-direction: column;
+    flex: 100%;
+    position: relative;
+  }
+  .article-img {
+    border-radius: 10px 10px 0px 0px;
+  }
+  .article-img > img {
+    object-fit: contain;
+    width: auto;    
+  }
+  .article-text{
+    transform: translateY(-15%);
+    background-color: #fff ;
+    padding: 5% 5% 0%;
+  }
+  .article-heading{
+    font-size: 16px;
+    padding: 5% 3% 0%;
+  }
+  .article-body{
+    padding: 0% 7% 0% 3%;
+    position: relative;
+    transform: translateY(15%);
+  }
+  .article-writer{
+    position: relative;
+    transform: translate(-5%,61%);
+    width: 111%;
+    padding: 5% 3% 5% 6%;
+  }
+  .popup{
+  position: absolute;
+  padding: 15px 3%;
+  transform: translate(0%,-18%);
+  border-radius: 10px;
+  }
+}
