@@ -96,6 +96,37 @@ span {
   object-fit: cover;
   padding: 30%;
 }
+.visibility{
+  display: none;
+}
+.popup{
+  display: flex;
+  background-color:hsl(217, 19%, 35%) ;
+  position: absolute;
+  padding: 15px 3%;
+  justify-content: center;
+  text-transform: uppercase;
+  color: #fff;
+  letter-spacing: 0.5rem;
+  transform: translate(85%,-135%);
+  border-radius: 10px;
+}
+.share-img{
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+}.share-img>img,p{
+  padding: 0% 3%;
+}
+.arrow{
+  background-color: hsl(217, 19%, 35%);
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  transform: rotate(45deg);
+  bottom: -10%;
+  
+}
 .attribution {
   font-size: 13px;
   text-align: center;
