@@ -178,7 +178,10 @@ span {
   .popup{
   position: absolute;
   padding: 15px 3%;
-  transform: translate(0%,-18%);
+  transform: translate(0%,-15%);
   border-radius: 10px;
+  }
+  .arrow{
+    display: none;
   }
 }
